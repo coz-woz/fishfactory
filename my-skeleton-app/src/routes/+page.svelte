@@ -28,7 +28,8 @@
 	</div>
 	<div class="grid grid-cols-2 gap-6 my-3">
 		<div class="card p-4 text-center"><p>Top 10 Domains</p><br><p class="text-2xl">{top_ten_domains}<p></div>
-		<div class="card p-4 text-center"><p>Top 10 Favicons</p><br><p class="text-2xl">{top_ten_favicons} <p></div>
+		<div class="card p-4 text-center"><p>Top 10 Favicons</p><br><p class="text-2xl">{top_ten_favicons}<p></div>
+
 	</div>
 </div>
 

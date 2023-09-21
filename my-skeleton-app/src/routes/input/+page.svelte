@@ -1,5 +1,11 @@
 
 
+<div class="container mx-auto p-8 space-y-8">
+	
+	<h1 class="h3">Input</h1>
+	<textarea rows="3"></textarea>
+
+</div>
 
 <div class="container mx-auto p-8 space-y-8">
 

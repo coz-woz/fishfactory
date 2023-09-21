@@ -2,8 +2,8 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
-	import inputPage from './Input/*page.svelte';
-
+	import factoryLogo from "$lib/images/fishfactory.png";
+	
 </script>
 
 <!-- App Shell -->
@@ -22,7 +22,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Fish Factory</strong>
+				<img src={factoryLogo} alt="download icon" class="w-60"/>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
